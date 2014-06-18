@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ton Flocking Comp#1</title>
+        <meta charset="UTF-8" />
+        <script src="../flocking/dist/flocking-all.min.js"></script>
+        <script src="js/flockComp1.js"></script>
+
+    </head>
+
+    <body>
+        <h1>Ton Flocking Comp#1</h1>
+
+        <script>
+            var dm = flock.examples.drumMachine();
+            dm.synth.play();
+        </script>
+
+         <div id="Text">
+            <p>Hi! Click and move the mouse to make more cool sounds. This is a Flocking example.</p>
+            <script>
+
+                synth1 = flockComp1.fall();
+                synth1.play();
+
+                synth2 = flockComp1.dust();
+                synth2.play();
+
+                synth3 = flockComp1.synth2();
+                //synth3.play();
+
+                 synth4 = flockComp1.sample();
+                synth4.play();
+
+            </script>
+        </div>
+  
+    </body>
+</html>
